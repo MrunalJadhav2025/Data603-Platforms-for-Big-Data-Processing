@@ -1,1 +1,40 @@
+Crime Data Analysis using Apache Spark – Summary
+Spark Setup
 
+Initialize a Spark session.
+
+Schema Definition & Data Loading
+
+Define a schema for the Chicago crime dataset.
+
+Load data from the provided URL (over 1 million rows).
+
+Data Cleaning
+
+Remove rows with null values.
+
+Convert 'Date' column to proper timestamp format.
+
+Filter data for the last 10 years.
+
+Exclude certain crime types:
+
+'NON-CRIMINAL (SUBJECT SPECIFIED)'
+
+'OTHER OFFENSE'
+
+'STALKING'
+
+'NON - CRIMINAL'
+
+'ARSON'
+
+Merge similar crime types (e.g., group 'SEX OFFENSE' and 'PROSTITUTION' together).
+
+Data Analysis
+
+Show year-wise crime trend (for last 10 years).
+
+Identify peak crime hour of the day.
+
+Find top 10 crime types and display them as a bar chart.
